@@ -1,4 +1,3 @@
 import './sass/main.scss';
-import la from './js/hi.js';
-
-console.log(la);
+import msg from './js/message.js';
+import deb from 'lodash.debounce';
