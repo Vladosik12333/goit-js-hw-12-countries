@@ -19,7 +19,6 @@
     "url": "https://github.com/Vladosik12333/goit-js-hw-12-countries/issues"
   },
   "devDependencies": {
-    "@pnotify/animate": "^5.2.0",
     "@pnotify/core": "^5.2.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
@@ -28,7 +27,6 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "@pnotify/confirm": "^5.2.0",
     "lodash.debounce": "^4.0.8"
   }
 }
