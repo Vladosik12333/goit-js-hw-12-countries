@@ -1,0 +1,18 @@
+<div class="full-country">
+<h2>{{this.name}}</h2>
+<div class="full-country__box">
+<div class="full-country__info">
+<h4>Capital:</h4>
+<p>{{this.capital}}</p>
+<h4>Population:</h4>
+<p>{{this.population}}</p>
+<h4>Languages: </h4>
+  <ul>
+    {{#each this.languages}} 
+    <li>{{this.name}}</li> 
+    {{/each}}
+    </ul>
+</div>
+<img src={{this.flag}} width="250px"></img>
+</div>
+</div>
